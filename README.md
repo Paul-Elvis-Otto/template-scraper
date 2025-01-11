@@ -11,6 +11,11 @@ All of the scripts that are in request are mirrored here except that they use `h
 testing script to analyse the `robots.txt` of a website
 
 # `performanceAnalyser.py`
-this script gives different informations on the performance of a website.
-> `uv run performanceAnalyser.py [https://example.com]`
 
+Analyze website performance: status code, page size, load time, redirects, and headers.
+
+## Usage
+```bash
+uv run performanceAnalyser.py https://example.com
+uv run performanceAnalyser.py https://example.com --user-agent "CustomAgent/1.0"
+```
