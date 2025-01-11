@@ -9,3 +9,8 @@ All of the scripts that are in request are mirrored here except that they use `h
 
 # robots
 testing script to analyse the `robots.txt` of a website
+
+# `performanceAnalyser.py`
+this script gives different informations on the performance of a website.
+> `uv run performanceAnalyser.py [https://example.com]`
+
